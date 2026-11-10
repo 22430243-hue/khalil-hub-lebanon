@@ -40,7 +40,7 @@ src/
 
 ## Setup Instructions
 1. Clone the repository 
-     git clone https://github.com/yourusername/khalil-hub-lebanon.git
+     git clone https://github.com/22430243-hue/khalil-hub-lebanon.git
 
 2. Navigate to the project folder
      cd eventhub
@@ -56,20 +56,22 @@ http://localhost:3000
 
 ## Screenshots
 
- ### Home Page:
+### Home Page
 
- Screenshots/Home1.png
- Screenshots/Home2.png
+![Home Page 1](Screenshots/Home1.png)
 
- ### About Page:
+![Home Page 2](Screenshots/Home2.png)
 
- Screenshots/About.png
+### About Page
 
- ### Event Page:
+![About Page](Screenshots/About.png)
 
- Screenshots/Event1.png
- Screenshots/Event2.png
+### Event Page
 
- ### Contact page:
+![Event Page 1](Screenshots/Events1.png)
 
- Screenshots/Contact.png
+![Event Page 2](Screenshots/Events2.png)
+
+### Contact Page
+
+![Contact Page](Screenshots/Contact.png)
