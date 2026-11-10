@@ -93,7 +93,8 @@ function Events() {
             <h3>⚠️</h3>
             <p><b>{selectedEvent?.price}</b></p>
             <p>You can't register without paying😕</p>
-            <button onClick={() => setShowPayMsg(false)} className="btn-small" style={{ marginTop: '10px' }}>
+            <button onClick={() => setShowPayMsg(false)} 
+            className="btn-small" style={{ marginTop: '10px' }}>
               Cancel
             </button>
           </div>

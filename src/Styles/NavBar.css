@@ -67,3 +67,34 @@
 }
 
 .links a:hover { color: #ff6b35; }
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .menu-icon {
+        display: block;
+    }
+
+    .links {
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background: #1a0b2e;
+        flex-direction: column;
+        padding: 15px;
+        border-radius: 10px;
+        gap: 15px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .links.active {
+        display: flex;
+    }
+}

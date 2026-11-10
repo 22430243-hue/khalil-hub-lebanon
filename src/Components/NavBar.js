@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 import '../Styles/NavBar.css'
 
 function NavBar() {
+  const [menuOpen, setMenuOpen] = useState(false)
+
   return (
     <nav className="navbar">
       <Link to="/" className="logo-special">
@@ -11,13 +14,22 @@ function NavBar() {
           <span className="logo-hub">Hub Lebanon</span>
         </div>
       </Link>
-      <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/events">Events</Link>
-        <Link to="/contact">Contact</Link>
+
+      <div
+        className="menu-icon"
+        onClick={() => setMenuOpen(!menuOpen)}
+      >
+        ☰
+      </div>
+
+      <div className={menuOpen ? "links active" : "links"}>
+        <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
+        <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>
+        <Link to="/events" onClick={() => setMenuOpen(false)}>Events</Link>
+        <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
       </div>
     </nav>
   )
 }
+
 export default NavBar
