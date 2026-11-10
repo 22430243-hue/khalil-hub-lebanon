@@ -16,27 +16,6 @@ KhalilHub is a web application for discovering and exploring events. Users can b
 - CSS
 - React Router DOM
 
-## Project Structure
-
-src/
-│
-├── Components/
-│   └── Navbar.js
-│
-├── Pages/
-│   ├── Home.js
-│   ├── About.js
-│   ├── Events.js
-│   └── Contact.js
-│
-├── Styles/
-│   ├── Home.css
-│   ├── About.css
-│   ├── Events.css
-│   └── Contact.css
-│
-├── App.js
-└── index.js
 
 ## Setup Instructions
 1. Clone the repository 
@@ -51,8 +30,6 @@ src/
 4. Run the application
      npm start
 
-The application will run on:
-http://localhost:3000
 
 ## Screenshots
 
