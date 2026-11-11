@@ -7,13 +7,23 @@ function Home() {
       <section className="hero">
         <h1>Discover the Best Events in Lebanon</h1>
         <p>Find and join exciting events across Lebanon — from concerts to workshops and more.</p>
-        <Link to="/events" className="btn">Browse Events →</Link>
+        <Link to="/events" className="btn">
+            Browse Events →
+        </Link>
       </section>
 
       <section className="stats">
-        <div className="card"><h2>500+</h2><p>Events Hosted</p></div>
-        <div className="card"><h2>50K+</h2><p>Attendees</p></div>
-        <div className="card"><h2>100+</h2><p>Trusted Partners</p></div>
+        <div className="card">
+          <h2>500+</h2>
+        <p>Events Hosted</p>
+        </div>
+        <div className="card">
+          <h2>50K+</h2><p>Attendees</p>
+          </div>
+        <div className="card">
+          <h2>100+</h2>
+          <p>Trusted Partners</p>
+          </div>
       </section>
 
       <h2 className="section-title">Our Features</h2>

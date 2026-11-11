@@ -21,7 +21,9 @@ function Events() {
   const [selectedEvent, setSelectedEvent] = useState(null)
 
   const filtered = allEvents.filter(e => {
-    const matchSearch = e.title.toLowerCase().includes(search.toLowerCase()) || e.location.toLowerCase().includes(search.toLowerCase())
+    const matchSearch = 
+    e.title.toLowerCase().includes(search.toLowerCase()) || 
+    e.location.toLowerCase().includes(search.toLowerCase())
     const matchFilter = filter === 'All' || e.category === filter
     return matchSearch && matchFilter
   })
